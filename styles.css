@@ -1,7 +1,7 @@
 
 p{
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins",  sans-serif;
 }
 .main-content{
     
@@ -10,12 +10,12 @@ p{
     
 }
 h1{
-    font-family: 'Kanit' sans-serif ;
+    font-family: 'Poppins' sans-serif ;
     font-weight: 700;
     font-size: 4rem;
 }
 h2{
-    font-family: 'Kanit' sans-serif ;
+    font-family: 'Poppins' sans-serif ;
     font-weight: 500;
     font-size: 2rem;  
 }
@@ -74,7 +74,10 @@ nav a:active{
  align-content: center;  
  max-width: 960px;
  margin: 0 auto;
-    
+
+}
+.splash{
+    margin-top: 5em;
 }
 .banner{
     align-content: center;
@@ -82,13 +85,14 @@ nav a:active{
 .banner h1{
     text-align: center;
     padding:2rem;
-    background-color: #F2B995;
+    background-color: #1E3A4B;
     border-radius: 1rem;
+    color:white
 }
 .banner p{
     text-align: center;
     padding: 0.25rem;
-    background-color: #F2B995;
+    border: #1E3A4B 2px solid;
     border-radius: 1rem;
     font-size: 2em;
 }
@@ -123,10 +127,28 @@ nav a:active{
     padding-top: 1rem;
 }
 
-/* Contact Form */
 
-.form{
-  margin-top: 10em; 
+/* Contact Form */
+.contact-container{
+    justify-content: center;
+    align-content: center;  
+    margin-top: 7em;
 }
-   
+.contact-container p{
+    font-size: 2em;
+}
+.form{
+  margin-top: 2em; 
+  font-size: 2em;
+}
+
+input{
+    margin: 0.75em;
+    height: 2em;
+}
+input[type=text] {
+   width: 15% 
+}
+
+
 
