@@ -1,7 +1,10 @@
 
+*{
+    font-family: 'Poppins', sans-serif;
+}
 p{
     font-size: 1rem;
-    font-family: "Poppins",  sans-serif;
+    font-family: 'Poppins',  sans-serif;
 }
 .main-content{
     
@@ -10,12 +13,12 @@ p{
     
 }
 h1{
-    font-family: 'Poppins' sans-serif ;
-    font-weight: 700;
+    font-family: 'Fira Sans', sans-serif ;
+    font-weight: 800;
     font-size: 4rem;
 }
 h2{
-    font-family: 'Poppins' sans-serif ;
+    font-family: 'Fira Sans', sans-serif ;
     font-weight: 500;
     font-size: 2rem;  
 }
