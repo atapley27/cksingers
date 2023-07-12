@@ -72,6 +72,8 @@ nav a:active{
 .main-content {   
  justify-content: center;
  align-content: center;  
+ max-width: 960px;
+ margin: 0 auto;
     
 }
 .banner{
@@ -88,6 +90,7 @@ nav a:active{
     padding: 0.25rem;
     background-color: #F2B995;
     border-radius: 1rem;
+    font-size: 2em;
 }
 
 /*People*/
