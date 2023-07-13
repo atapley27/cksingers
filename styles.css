@@ -69,7 +69,9 @@ nav a:active{
     color:#00AEAC;
     font-size:1.6rem;
 }
-
+nav a.active-page{
+    text-decoration: underline;
+}
 /*Landing page*/
 
 .main-content {   
@@ -100,13 +102,13 @@ nav a:active{
     font-size: 2em;
 }
 
-/*People*/
+/*About Us*/
 .people-container{
     display: block;
     flex-wrap: wrap;
     align-items: center;
     justify-items: stretch;
-    
+    margin-top: 7em;
 } 
 .people-container h2{
     text-align:center;
@@ -133,25 +135,53 @@ nav a:active{
 
 /* Contact Form */
 .contact-container{
-    justify-content: center;
-    align-content: center;  
-    margin-top: 7em;
+   margin-top: 7em;    
+}
+.contact-container h1{
+    text-align: center;
+    padding:1.5rem;
+    background-color: #1E3A4B;
+    border-radius: 1rem;
+    color:white
 }
 .contact-container p{
     font-size: 2em;
+    text-align: center;
 }
 .form{
   margin-top: 2em; 
   font-size: 2em;
+  margin: 0 auto;
+  max-width: 960px;
+  
 }
 
-input{
-    margin: 0.75em;
-    height: 2em;
-}
-input[type=text] {
-   width: 15% 
+.form > form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 
+input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
 
+#submit{
+    font-size: 1.025em;
+    margin-top: 0.75em;
+    align-self: center;
+    background-color: #1E3A4B;
+    color:white;
+}
+#submit:hover{
+    background-color:#00AEAC ;
+    color:#1E3A4B;
+    border: #1E3A4B 2px solid;
+}
+#submit:active{
+    background-color:#00AEAC ;
+    color:white;
+    border: #1E3A4B 2px solid;
+}

@@ -19,7 +19,7 @@
         <ul>
           <li><a href="../index.html"> Home</a></li>
           <li><a href="../about/index.html"> About</a></li>
-          <li><a href="#"> Contact Us</a></li>
+          <li><a href="../contact/index.html" class="active-page"> Contact Us</a></li>
         </ul>
        </nav>
     </div>      
@@ -29,22 +29,18 @@
         <div class="contact-container">
             <h1>Contact us!</h1>
             <p>If you have an event or a charity you would like us to come out too let us know!</p>
-        
+        </div>
        
             <div class="form">
-                <form>
-                    <label for="name"> Name </label>
-                    <input type="text" id="name" name="name" />
-                    <br>
-                    <label for="email"> Email </label>
-                    <input type="text" id="email" name="email"/>
-                    <br>
-                    <label for="message">Message </label>
-                    <br>
-                    <textarea rows="10" cols="50" name="message" id="message">Write message here. </textarea>
-                    <br>
+                <form method="post">
+                    <label for="name">Name</label>                   
+                    <input type="text" id="name" name="name" />                    
+                    <label for="email"> Email</label>                   
+                    <input type="text" id="email" name="email"/>                    
+                    <label for="message">Message </label>                   
+                    <textarea rows="5" cols="50" name="message" id="message" placeholder="Write message here."></textarea>                    
                     <input type="submit" id="submit">
                 </form>
             </div>
-        </div>
+        
     </body>
