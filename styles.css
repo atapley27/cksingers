@@ -104,11 +104,12 @@ nav a.active-page{
 
 /*About Us*/
 .people-container{
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-items: stretch;
     margin-top: 7em;
+    justify-content: center;
 } 
 .people-container h2{
     text-align:center;
@@ -116,13 +117,19 @@ nav a.active-page{
     margin-bottom: 2rem;
 
 }
+
 .people-images{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width:90%;
 }
-.people-images img{
+.people-container img{
+    width:300px;
+    height: 300px;
+    flex-shrink: 2;
+}
+.board-members img{
     width:300px;
     height: 300px;
     flex-shrink: 2;
