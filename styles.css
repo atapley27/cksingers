@@ -22,6 +22,11 @@ h2{
     font-weight: 500;
     font-size: 2rem;  
 }
+h3{
+    font-family: 'Fira Sans', sans-serif ;
+    font-weight: 500;
+    font-size: 1.25rem;   
+}
 /*Header*/
 .header-container{
 display:flex;
@@ -110,6 +115,7 @@ nav a.active-page{
     justify-items: stretch;
     margin-top: 7em;
     justify-content: center;
+    margin-bottom: 4em;
 } 
 .people-container h2{
     text-align:center;
@@ -117,28 +123,34 @@ nav a.active-page{
     margin-bottom: 2rem;
 
 }
-
-.people-images{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width:90%;
+.conductor, .accompanist, .president{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0.5em;
 }
+
 .people-container img{
     width:300px;
     height: 300px;
     flex-shrink: 2;
 }
+.board-members{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: auto;
+}
+
 .board-members img{
     width:300px;
     height: 300px;
     flex-shrink: 2;
-}
-.people-images h3{
-    margin-top: auto;
-    padding-top: 1rem;
+    margin-top: 2em;
 }
 
+.board-members h3{
+    text-align: center;
+}
 
 /* Contact Form */
 .contact-container{
