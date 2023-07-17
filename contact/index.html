@@ -5,16 +5,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    
+    <meta charset="utf-8" />
     <link href="./styles.css" type="text/css" rel="stylesheet">
     <link href="../styles.css" type="text/css" rel="stylesheet">
+    <title>Contact</title>
   </head>
 
   <body>
     <!--Header-->
     <header>
       <div class="header-container">     
-        <img src="../resources/images/ck-singers-logo.png" class="logo">     
+        <a href="../index.html">     
+          <img src="../resources/images/ck-singers-logo.png" class="logo" alt="Chatham-Kent Singers Logo">  
+        </a>    
         <nav class="desktop">
         <ul>
           <li><a href="../index.html"> Home</a></li>
@@ -22,7 +25,7 @@
           <li><a href="../contact/index.html" class="active-page"> Contact Us</a></li>
         </ul>
        </nav>
-    </div>      
+     </div>      
     </header>
 
     <body>
@@ -36,7 +39,7 @@
                     <label for="name">Name</label>                   
                     <input type="text" id="name" name="name" />                    
                     <label for="email"> Email</label>                   
-                    <input type="text" id="email" name="email"/>                    
+                    <input type="email" id="email" name="email"/>                    
                     <label for="message">Message </label>                   
                     <textarea rows="5" cols="50" name="message" id="message" placeholder="Write message here."></textarea>                    
                     <input type="submit" id="submit">

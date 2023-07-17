@@ -1,17 +1,13 @@
 
-*{
+body{
     font-family: 'Poppins', sans-serif;
+    padding-top:5em;
 }
 p{
     font-size: 1rem;
    
 }
-.main-content{
-    
-    top: 5.3125rem;
-    display:flex;
-    
-}
+
 h1{
     font-family: 'Fira Sans', sans-serif ;
     font-weight: 800;
@@ -43,6 +39,7 @@ z-index: 100;
 .logo{
 height: 5rem;
 padding-left:2rem;
+margin-top: 0.5em;
 }
 .header-container ul{
     display:flex;
@@ -72,7 +69,7 @@ nav a:hover{
 }
 nav a:active{
     color:#00AEAC;
-    font-size:1.6rem;
+    transform: scale(1.6)
 }
 nav a.active-page{
     text-decoration: underline;
@@ -87,8 +84,7 @@ nav a.active-page{
 
 }
 .splash{
-    margin-top: 5em;
-    max-width: 100%;
+   max-width: 100%;
 }
 .banner{
     align-content: center;
@@ -107,21 +103,36 @@ nav a.active-page{
     border-radius: 1rem;
     font-size: 2em;
 }
-
+.updates{
+    font-family: 'Fira Sans', sans-serif ;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    padding: 2rem;
+    background-color: #1E3A4B;
+    border-radius: 1rem;
+    color:white
+}
+.update-container p{
+    text-align: center;
+    padding: 0.25rem;
+    border: #1E3A4B 2px solid;
+    border-radius: 1rem;
+    font-size: 2em;
+}
 /*About Us*/
 .people-container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-items: stretch;
-    margin-top: 7em;
     justify-content: center;
     margin-bottom: 4em;
 } 
 .people-container h2{
     text-align:center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
 
 }
 .conductor, .accompanist, .president{
@@ -132,7 +143,7 @@ nav a.active-page{
 
 .people-container img{
     width:300px;
-    height: 300px;
+    height: auto;
   
 }
 .board-members{
@@ -154,9 +165,7 @@ nav a.active-page{
 }
 
 /* Contact Form */
-.contact-container{
-   margin-top: 7em;    
-}
+
 .contact-container h1{
     text-align: center;
     padding:1.5rem;
