@@ -1,0 +1,27 @@
+---
+layout: html.liquid
+---
+
+<!--Header-->
+    <header>
+    
+      <div class="header-container">
+        <a href="/">     
+        <img src="/resources/images/ck-singers-logo.png" class="logo" alt="Chatham-Kent Singers Logo">  
+        </a>   
+        <nav class="desktop">
+        <ul>
+          <li><a href="/" {% if page.url == "/" %}class="active-page"{% endif %}> Home</a></li>
+          <li><a href="/about/" {% if page.url == "/about/" %}class="active-page"{% endif %}> About</a></li>
+          <li><a href="/contact/" {% if page.url == "/contact/" %}class="active-page"{% endif %}> Contact Us</a></li>
+        </ul>
+       </nav>
+      </div>      
+    </header>
+
+ 
+
+  {{ content }}
+
+
+

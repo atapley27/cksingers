@@ -1,0 +1,217 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+  padding-top:5em;
+}
+p{
+  font-size: 1rem;
+ 
+}
+
+h1{
+  font-family: 'Fira Sans', sans-serif ;
+  font-weight: 800;
+  font-size: 4rem;
+}
+h2{
+  font-family: 'Fira Sans', sans-serif ;
+  font-weight: 500;
+  font-size: 2rem;  
+}
+h3{
+  font-family: 'Fira Sans', sans-serif ;
+  font-weight: 400;
+  font-size: 1.25rem;   
+}
+/*Header*/
+.header-container{
+display:flex;
+background-color: white;
+border-bottom: 2px solid #1E3A4B;
+align-items: center;
+height: 5rem;
+position: fixed;
+width: 100%;
+top:0;
+z-index: 100;
+
+}
+.logo{
+height: 5rem;
+padding-left:2rem;
+margin-top: 0.5em;
+}
+.header-container ul{
+  display:flex;
+  align-items: center;
+  list-style:none; 
+  padding-right: 2rem;     
+  
+}
+.header-container li{
+  padding-left: 3.25rem;
+  justify-content: flex-end;          
+}
+nav{
+  display:flex;
+  margin-left: auto;
+}
+nav a{
+  text-decoration: none;
+  color:#136371;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight:bold;
+  font-size:1.5rem;
+  vertical-align: bottom;
+}
+nav a:hover{
+  color:#00AEAC;
+}
+nav a:active{
+  color:#00AEAC;
+  transform: scale(1.6)
+}
+nav a.active-page{
+  text-decoration: underline;
+}
+/*Landing page*/
+
+.main-content {   
+justify-content: center;
+align-content: center;  
+max-width: 960px;
+margin: 0 auto;
+
+}
+.splash{
+ max-width: 100%;
+}
+.banner{
+  align-content: center;
+}
+.banner h1{
+  text-align: center;
+  padding:2rem;
+  background-color: #1E3A4B;
+  border-radius: 1rem;
+  color:white
+}
+.banner p{
+  text-align: center;
+  padding: 0.25rem;
+  border: #1E3A4B 2px solid;
+  border-radius: 1rem;
+  font-size: 2em;
+}
+.updates{
+  font-family: 'Fira Sans', sans-serif ;
+  font-weight: 800;
+  font-size: 4em;
+  text-align: center;
+  padding: 2rem;
+  background-color: #1E3A4B;
+  border-radius: 1rem;
+  color:white
+}
+.update-container p{
+  text-align: center;
+  padding: 0.25rem;
+  border: #1E3A4B 2px solid;
+  border-radius: 1rem;
+  font-size: 2em;
+}
+/*About Us*/
+.people-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: stretch;
+  justify-content: center;
+  margin-bottom: 4em;
+} 
+.people-container h2{
+  text-align:center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+}
+.conductor, .accompanist, .president,.choir{
+  width: 50%;
+  margin: 0.5em;
+
+}
+
+.people-container img{
+  width:300px;
+  height: auto;
+
+}
+.board-members{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.board-members img{
+  width:300px;
+  height: 300px;
+  flex-shrink: 2;
+  margin-top: 2em;
+}
+
+.board-members h3{
+  text-align: center;
+}
+
+/* Contact Form */
+
+.contact-container h1{
+  text-align: center;
+  padding:1.5rem;
+  background-color: #1E3A4B;
+  border-radius: 1rem;
+  color:white
+}
+.contact-container p{
+  font-size: 2em;
+  text-align: center;
+}
+.form{
+margin-top: 2em; 
+font-size: 2em;
+margin: 0 auto;
+max-width: 960px;
+
+}
+
+.form > form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+#submit{
+  font-size: 1.025em;
+  margin-top: 0.75em;
+  align-self: center;
+  background-color: #1E3A4B;
+  color:white;
+}
+#submit:hover{
+  background-color:#00AEAC ;
+  color:#1E3A4B;
+  border: #1E3A4B 2px solid;
+}
+#submit:active{
+  background-color:#00AEAC ;
+  color:white;
+  border: #1E3A4B 2px solid;
+}
+

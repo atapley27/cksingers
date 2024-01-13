@@ -1,0 +1,28 @@
+{
+  "name": "bay-light-orchestra",
+  "version": "1.0.0",
+  "description": "Bay Light Orchestra Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/MikeGossmann/bay-light-orchestra.git"
+  },
+  "author": "Mike Gossmann <mike@c572.ca> (https://mikegossmann.ca)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/MikeGossmann/bay-light-orchestra/issues"
+  },
+  "homepage": "https://gitlab.com/MikeGossmann/bay-light-orchestra#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@sanity/block-content-to-html": "^1.3.8",
+    "@sanity/client": "^2.1.0",
+    "dotenv": "^8.2.0"
+  }
+}
