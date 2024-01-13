@@ -1,0 +1,12 @@
+<div class="h-event {{ event.class }}">
+  {% if event.title %}
+    <h3 class="p-name">{{ event.title }}</h3>
+  {% endif %}
+  <p>From
+    <time class="dt-start" datetime="{{ event.start_date }}">{{ event.start }}</time>
+    to <time class="dt-end" datetime="{{ event.end_date }}">{{ event.end }}</time>
+    at <span class="p-location">{{ event.location }}</span></p>
+  {% if event.summary %}
+    <p class="p-summary">{{ event.summary }}</p>
+  {% endif %}
+</div>

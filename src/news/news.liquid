@@ -1,0 +1,15 @@
+---
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "news/{{post.path}}/"
+tags:
+  - news
+  - announcements
+layout: page.liquid
+eleventyComputed:
+  pageTitle: "{{post.title}}"
+---
+
+{{ post.body | sanity }}
