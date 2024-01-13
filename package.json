@@ -1,7 +1,7 @@
 {
-  "name": "bay-light-orchestra",
+  "name": "CK-Singers",
   "version": "1.0.0",
-  "description": "Bay Light Orchestra Website",
+  "description": "CK Singers Website",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/MikeGossmann/bay-light-orchestra.git"
+    "url": "git+https://gitlab.com/MikeGossmann/CK-Singers.git"
   },
   "author": "Mike Gossmann <mike@c572.ca> (https://mikegossmann.ca)",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/MikeGossmann/bay-light-orchestra/issues"
+    "url": "https://gitlab.com/MikeGossmann/CK-Singers/issues"
   },
-  "homepage": "https://gitlab.com/MikeGossmann/bay-light-orchestra#readme",
+  "homepage": "https://gitlab.com/MikeGossmann/CK-Singers#readme",
   "devDependencies": {},
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
