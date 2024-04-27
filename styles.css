@@ -85,6 +85,8 @@ nav a.active-page{
 }
 .splash{
    max-width: 100%;
+   border: #1E3A4B 2px solid;
+   border-radius: 1rem;
 }
 .banner{
     align-content: center;
